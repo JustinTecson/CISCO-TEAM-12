@@ -12,7 +12,7 @@ This project is part of IT-491's 2024 class, and we aim to present our finished 
   
 ### Installing
 
-* Downloadable main PT project file
+* Download and run the main .pkt file with Packet Tracer
 
 ## Authors
 
