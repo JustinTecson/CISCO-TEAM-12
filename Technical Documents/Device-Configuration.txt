@@ -1,0 +1,22 @@
+IPv4 Configuration (Switches & Routers)
+enable
+configure terminal
+interface G0/0/0
+ip address 172.18.110.2 255.255.255.240
+no shutdown
+exit
+end
+copy running-config startup-config
+==========================================
+IPv6 Configuration (Switches & Routers)
+enable
+configure terminal
+interface G0/0/0
+ipv6 address 2003:ACAD:110:A::2/64
+ipv6 unicast-routing
+no shutdown (no need if already up)
+exit
+end
+copy running-config startup-config
+
+show ipv6 interface G0/0/0 --> display link local addresses + other information
