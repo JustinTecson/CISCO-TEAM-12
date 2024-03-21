@@ -8,7 +8,7 @@ This project is part of IT-491's 2024 class, and we aim to present our finished 
 
 ### Dependencies
 
-* Cisco Packet Tracer
+* Cisco Packet Tracer 7.2.2 or higher
   
 ### Installing
 
